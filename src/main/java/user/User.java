@@ -2,10 +2,11 @@ package user;
 
 public class User {
     // private datatype attributename
-    private String username, password;
+    private String username, password ;
     public User(String username, String password) {
         this.username= username;
         this.password =  password;
+
 
      //   return userName, passWord;
 
@@ -17,5 +18,10 @@ public class User {
 
     public String getPassword() {
         return password;// first uppdated with error then fixed the code again
+    }
+
+    public String setPassword() {
+
+        return password;
     }
 }
