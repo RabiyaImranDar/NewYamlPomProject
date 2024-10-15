@@ -16,6 +16,6 @@ public class User {
     }
 
     public String getPassword() {
-        return username;// first uppdated with error then fixed the code again
+        return password;// first uppdated with error then fixed the code again
     }
 }
